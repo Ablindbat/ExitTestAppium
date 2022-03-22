@@ -1,6 +1,6 @@
 ## Appium Exit Test 
 
-#####<u> To run the automation project of  api_demo.apk </u>
+##### <u> To run the automation project of  api_demo.apk </u>
 - To run through terminal or command prompt:-<br><br>
 	``mvn clean verify``<br>
 	<br>
@@ -17,7 +17,7 @@ or
 `Right click on that file>Run As>TestNG`
 <br>
 
-#####<u> Source folders Description </u>
+##### <u> Source folders Description </u>
 - <b>[src/main/java](https://github.com/Rajib8016/ExitTestAppium/tree/master/src/main/java):-</b>  Screens and utility packages are here.
 <br><br>
 - <b>[src/test/java](https://github.com/Rajib8016/ExitTestAppium/tree/master/src/test/java):- </b> features, runner and stepsdefinitions packages are here.
@@ -46,7 +46,7 @@ or
 - **POM:-**[POM.xml](https://github.com/Rajib8016/ExitTestAppium/blob/master/pom.xml) all required dependency and plugins are mention
 <br><br>
 
-#####<u> Extent Reports and Screenshot Description</u>
+##### <u> Extent Reports and Screenshot Description</u>
  - **Reports-** Extent report generate [here](https://github.com/Rajib8016/ExitTestAppium/tree/master/Reports).
  <br><br>
  - **ScreenShot-** all failure screenshots are [here](https://github.com/Rajib8016/ExitTestAppium/tree/master/Screenshots).
@@ -61,7 +61,7 @@ or
 - [Appium](https://github.com/appium/appium-desktop/releases/tag/v1.18.0-1)
 
 
-#####<u> Acknowledgments</u>
+##### <u> Acknowledgments</u>
 - [StackOverFlow](https://stackoverflow.com/)
 - [YouTube](https://youtu.be/)
 
