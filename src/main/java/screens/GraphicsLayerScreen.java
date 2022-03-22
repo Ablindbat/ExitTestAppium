@@ -28,15 +28,23 @@ public class GraphicsLayerScreen extends BaseMethod {
 	@AndroidFindBy(id = "Layers")
 	private AndroidElement layerTextLink;
 	
+	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.TextView")
+	private AndroidElement titleLayer;
+	
 //	scroll method
 	public void scroll() {
 		wd.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Layer\").instance(0))"));
 	}
-//	
-	public void taplayerTextLink() throws Throwable {
+//	tap action of layer text link
+	public void tapLayerTextLink() throws Throwable {
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("Layers")));
 		action.tap(TapOptions.tapOptions().withElement(ElementOption.element(layerTextLink))).perform();
 		Thread.sleep(5000);
+	}
+//	getting assertion data
+	public String AssertionDataLayer() {
+		String title = titleLayer.getText();
+		return title;
 	}
 
 }

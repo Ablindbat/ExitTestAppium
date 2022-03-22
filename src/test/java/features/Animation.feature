@@ -1,6 +1,6 @@
 Feature: Animation testing of Api Demo apk
 
-  @smoke @test1
+  @smoke @reverse
   Scenario: Reverse testing of animation screen
     Given I open the app
     And Tap on animation
@@ -9,7 +9,7 @@ Feature: Animation testing of Api Demo apk
     And Tap on reverse button
     Then Ball return same place
 
-  @test2 @smoke
+  @loading @smoke
   Scenario: Loading testing of Animation screen
     Given I open the app
     And Tap on animation
@@ -17,7 +17,7 @@ Feature: Animation testing of Api Demo apk
     When Tap on run button
     Then Loading the screen
 
-  @test3 @smoke
+  @cloning @smoke
   Scenario: Cloning testing of Animation screen
     Given I open the app
     And Tap on animation
@@ -25,7 +25,7 @@ Feature: Animation testing of Api Demo apk
     When Tap on clonig run button
     Then Cloning the screen
 
-  @test4 @smoke
+  @custom @smoke
   Scenario: Custom evaluator testing of animation screen
     Given I open the app
     And Tap on animation

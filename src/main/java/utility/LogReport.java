@@ -13,6 +13,6 @@ public class LogReport {
 		log = LogManager.getLogger(name);
 		BasicConfigurator.configure();
 		//log4j properties path 
-		PropertyConfigurator.configure("./src/main/resources/log4j2.properties");
+		PropertyConfigurator.configure("./src/test/resources/log4j2.properties");
 	}
 }

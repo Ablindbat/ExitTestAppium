@@ -26,11 +26,21 @@ public class AnimationCustomEvaluatorScreen extends BaseMethod {
 	
 //	Element locators
 	@AndroidFindBy(id = "Custom Evaluator")
-	AndroidElement customEvaluator;
+	private AndroidElement customEvaluator;
 	
+	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.TextView")
+	private AndroidElement titleCustomEvaluator;
+	
+//	tap action of Custom Evaluator text link method
 	public void tapCustomEvaluatorLinkText() {
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("Custom Evaluator")));
 		action.tap(TapOptions.tapOptions().withElement(ElementOption.element(customEvaluator))).perform();
 	}
+//	getting title for assertion
+	public String assertionCustomEvaluatorData() {
+		String title = titleCustomEvaluator.getText();
+		return title;
+	}
+		
 	
 }

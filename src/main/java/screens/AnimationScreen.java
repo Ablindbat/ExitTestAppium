@@ -36,6 +36,9 @@ public class AnimationScreen extends BaseMethod{
 	@AndroidFindBy(id = "Reverse")
 	private AndroidElement reverseButton;
 	
+	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.TextView")
+	private AndroidElement titleReverse;
+	
 //	Animation text link method 
 	public void  tapAnimationTextLink() {
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("Animation")));
@@ -58,5 +61,10 @@ public class AnimationScreen extends BaseMethod{
 	public void tapReverseButton() {
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("Reverse")));
 		action.tap(TapOptions.tapOptions().withElement(ElementOption.element(reverseButton))).perform();
+	}
+//	getting Assertion  data 
+	public String AssertionReverse() {
+		String title = titleReverse.getText();
+		return title;
 	}
 }

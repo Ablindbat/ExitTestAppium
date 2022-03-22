@@ -26,14 +26,16 @@ public class AnimationCloningScreen extends BaseMethod {
 	
 //	Element locators
 	@AndroidFindBy(id = "Animation")
-	AndroidElement animationTextLink;
+	private AndroidElement animationTextLink;
 	
 	@AndroidFindBy(id = "Cloning")
-	AndroidElement cloningTextLink;
+	private AndroidElement cloningTextLink;
 	
 	@AndroidFindBy(id = "Run")
-	AndroidElement runButton;
+	private AndroidElement runButton;
 	
+	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.TextView")
+	private AndroidElement assertionValue;
 		
 //	Cloning text link method
 	public void tapCloningTextLink() {
@@ -45,6 +47,11 @@ public class AnimationCloningScreen extends BaseMethod {
 	public void tapRunButton() {
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("Run")));
 		action.tap(TapOptions.tapOptions().withElement(ElementOption.element(runButton))).perform();
+	}
+//	getting title of last page 
+	public String titleAssertion() {
+		String cloningTitle = assertionValue.getText();
+		return cloningTitle;
 	}
 
 }

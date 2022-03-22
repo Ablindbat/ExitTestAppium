@@ -26,23 +26,31 @@ public class AnimationLoadingScreen extends BaseMethod {
 	
 //	Element locators
 	@AndroidFindBy(id = "Animation")
-	AndroidElement animationTextLink;
+	private AndroidElement animationTextLink;
 	
 	@AndroidFindBy(id = "Loading")
-	AndroidElement loadingTextLink;
+	private AndroidElement loadingTextLink;
 	
 	@AndroidFindBy(id = "Run")
-	AndroidElement runButton;
+	private AndroidElement runButton;
 	
-		
+	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.TextView")
+	private AndroidElement title;
+	
+//	tap action method of loading text link method	
 	public void tapLoadingTextLink() {
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("Loading")));
 		action.tap(TapOptions.tapOptions().withElement(ElementOption.element(loadingTextLink))).perform();
 	}
-	
+//	tap action method of run button
 	public void tapRunButton() {
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("Run")));
 		action.tap(TapOptions.tapOptions().withElement(ElementOption.element(runButton))).perform();
+	}
+//	getting assertion data
+	public String assertionData() {
+		String titleData = title.getText();
+		return titleData;
 	}
 	
 
