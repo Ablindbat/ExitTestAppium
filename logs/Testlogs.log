@@ -1,0 +1,76 @@
+2022-03-22 22:50:21,464  INFO [main] Hooks:20 - Strating appium server.
+2022-03-22 22:50:25,683  INFO [main] Hooks:22 - Started appium server.
+2022-03-22 22:50:25,734  INFO [main] Animation screen:30 - starting setup
+2022-03-22 22:50:38,149  INFO [main] Animation screen:32 - Setup completed
+2022-03-22 22:50:38,161  INFO [main] Animation screen:38 - Searching animation locator
+2022-03-22 22:50:39,950  INFO [main] Animation screen:41 - search completed and perform touch action.
+2022-03-22 22:50:39,952  INFO [main] Animation screen:48 - Searching reversing locator
+2022-03-22 22:50:41,896  INFO [main] Animation screen:51 - search completed and perform touch action.
+2022-03-22 22:50:41,898  INFO [main] Animation screen:102 - Searching play button locator
+2022-03-22 22:50:46,764  INFO [main] Animation screen:105 - search completed and perform touch action.
+2022-03-22 22:50:46,765  INFO [main] Animation screen:59 - Searching reversing button locator
+2022-03-22 22:50:50,139  INFO [main] Animation screen:62 - search completed and perform touch action.
+2022-03-22 22:50:51,818  INFO [main] Hooks:39 - stop appium
+2022-03-22 22:50:51,878  INFO [main] Hooks:41 - close service
+2022-03-22 22:50:51,932  INFO [main] Hooks:20 - Strating appium server.
+2022-03-22 22:51:02,910  INFO [main] Hooks:22 - Started appium server.
+2022-03-22 22:51:02,914  INFO [main] Animation screen:30 - starting setup
+2022-03-22 22:51:08,548  INFO [main] Animation screen:32 - Setup completed
+2022-03-22 22:51:08,549  INFO [main] Animation screen:38 - Searching animation locator
+2022-03-22 22:51:09,800  INFO [main] Animation screen:41 - search completed and perform touch action.
+2022-03-22 22:51:09,802  INFO [main] Animation screen:68 - Searching loading text locator
+2022-03-22 22:51:11,267  INFO [main] Animation screen:71 - search completed and perform touch action.
+2022-03-22 22:51:11,269  INFO [main] Animation screen:93 - Searching run button locator
+2022-03-22 22:51:15,377  INFO [main] Animation screen:96 - search completed and perform touch action.
+2022-03-22 22:51:16,559  INFO [main] Hooks:39 - stop appium
+2022-03-22 22:51:16,618  INFO [main] Hooks:41 - close service
+2022-03-22 22:51:16,640  INFO [main] Hooks:20 - Strating appium server.
+2022-03-22 22:51:25,935  INFO [main] Hooks:22 - Started appium server.
+2022-03-22 22:51:25,938  INFO [main] Animation screen:30 - starting setup
+2022-03-22 22:51:32,982  INFO [main] Animation screen:32 - Setup completed
+2022-03-22 22:51:32,983  INFO [main] Animation screen:38 - Searching animation locator
+2022-03-22 22:51:34,065  INFO [main] Animation screen:41 - search completed and perform touch action.
+2022-03-22 22:51:34,067  INFO [main] Animation screen:77 - Searching cloning locator
+2022-03-22 22:51:35,429  INFO [main] Animation screen:80 - search completed and perform touch action.
+2022-03-22 22:51:35,431  INFO [main] Animation screen:110 - Searching cloning locator
+2022-03-22 22:51:39,619  INFO [main] Animation screen:113 - search completed and perform touch action.
+2022-03-22 22:51:40,808  INFO [main] Hooks:39 - stop appium
+2022-03-22 22:51:40,863  INFO [main] Hooks:41 - close service
+2022-03-22 22:51:40,883  INFO [main] Hooks:20 - Strating appium server.
+2022-03-22 22:51:49,271  INFO [main] Hooks:22 - Started appium server.
+2022-03-22 22:51:49,275  INFO [main] Animation screen:30 - starting setup
+2022-03-22 22:51:59,156  INFO [main] Animation screen:32 - Setup completed
+2022-03-22 22:51:59,157  INFO [main] Animation screen:38 - Searching animation locator
+2022-03-22 22:52:00,188  INFO [main] Animation screen:41 - search completed and perform touch action.
+2022-03-22 22:52:00,189  INFO [main] Animation screen:85 - Searching custom evaluation text link locator
+2022-03-22 22:52:01,696  INFO [main] Animation screen:88 - search completed and perform touch action.
+2022-03-22 22:52:01,698  INFO [main] Animation screen:102 - Searching play button locator
+2022-03-22 22:52:05,841  INFO [main] Animation screen:105 - search completed and perform touch action.
+2022-03-22 22:52:06,855  INFO [main] Hooks:39 - stop appium
+2022-03-22 22:52:06,913  INFO [main] Hooks:41 - close service
+2022-03-22 22:52:06,935  INFO [main] Hooks:20 - Strating appium server.
+2022-03-22 22:52:15,228  INFO [main] Hooks:22 - Started appium server.
+2022-03-22 22:52:15,231  INFO [main] Graphics screen:28 - calling setup method
+2022-03-22 22:52:22,370  INFO [main] Graphics screen:30 - setup coomplete
+2022-03-22 22:52:22,371  INFO [main] Graphics screen:36 - Searching graphics locator
+2022-03-22 22:52:23,455  INFO [main] Graphics screen:39 - Tap on graphics successfully
+2022-03-22 22:52:23,457  INFO [main] Graphics screen:54 - Searching arc locator 
+2022-03-22 22:52:29,913  INFO [main] Graphics screen:57 - Tap on arc successfully
+2022-03-22 22:52:29,932  INFO [main] Hooks:30 - Taking screenshot
+2022-03-22 22:52:32,389  INFO [main] Hooks:33 - Screenshot taken
+2022-03-22 22:52:32,389  INFO [main] Hooks:34 - Adding screenshot with extent report.
+2022-03-22 22:52:32,411  INFO [main] Hooks:36 - Screenshot added
+2022-03-22 22:52:33,801  INFO [main] Hooks:39 - stop appium
+2022-03-22 22:52:33,924  INFO [main] Hooks:41 - close service
+2022-03-22 22:52:33,949  INFO [main] Hooks:20 - Strating appium server.
+2022-03-22 22:52:41,645  INFO [main] Hooks:22 - Started appium server.
+2022-03-22 22:52:41,651  INFO [main] Graphics screen:28 - calling setup method
+2022-03-22 22:52:49,221  INFO [main] Graphics screen:30 - setup coomplete
+2022-03-22 22:52:49,224  INFO [main] Graphics screen:36 - Searching graphics locator
+2022-03-22 22:52:50,280  INFO [main] Graphics screen:39 - Tap on graphics successfully
+2022-03-22 22:52:50,281  INFO [main] Graphics screen:45 - Start scrolling
+2022-03-22 22:52:54,551  INFO [main] Graphics screen:48 - Scrolling complete
+2022-03-22 22:52:54,551  INFO [main] Graphics screen:62 - Searching layer locator
+2022-03-22 22:52:59,874  INFO [main] Graphics screen:65 - Tap on layer successfully
+2022-03-22 22:53:00,592  INFO [main] Hooks:39 - stop appium
+2022-03-22 22:53:00,650  INFO [main] Hooks:41 - close service
