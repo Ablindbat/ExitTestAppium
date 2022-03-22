@@ -5,9 +5,13 @@
 	``mvn clean verify``<br>
 	<br>
 	or<br><br>
+	
 - Run through [mvnRun.bat](https://github.com/Rajib8016/ExitTestAppium/blob/master/BatchRunner/mvnRun.bat) file
+
 <br><br>
-`click on bat file `
+
+``click on bat file ``
+
 <br>
 <br>
 or
