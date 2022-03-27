@@ -1,26 +1,25 @@
 ## Appium Exit Test 
 
 ##### <u> To run the automation project of  api_demo.apk </u>
-- To run through terminal or command prompt:-<br><br>
+- To run through terminal or command prompt:-<br>
 	``mvn clean verify``<br>
-	<br>
-	or<br><br>
+
+	or<br>
 	
 - Run through [mvnRun.bat](https://github.com/Rajib8016/ExitTestAppium/blob/master/BatchRunner/mvnRun.bat) file
 
-<br><br>
+<br>
 
 ``click on bat file ``
 
 <br>
-<br>
 or
 <br>
-<br>
+
 
 - Run through [TestRunner.java](https://github.com/Rajib8016/ExitTestAppium/tree/master/src/test/java/runner)
 
-<br><br>
+<br>
 
 `Right click on that file>Run As>TestNG`
 
