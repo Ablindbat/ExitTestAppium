@@ -17,7 +17,7 @@
 or
 <br>
 <br>
-* Run through [TestRunner.java](https://github.com/Rajib8016/ExitTestAppium/tree/master/src/test/java/runner)
+- Run through [TestRunner.java](https://github.com/Rajib8016/ExitTestAppium/tree/master/src/test/java/runner)
 <br><br>
 `Right click on that file>Run As>TestNG`
 <br>
@@ -69,22 +69,6 @@ or
 ##### <u> Acknowledgments</u>
 - [StackOverFlow](https://stackoverflow.com/)
 - [YouTube](https://youtu.be/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
